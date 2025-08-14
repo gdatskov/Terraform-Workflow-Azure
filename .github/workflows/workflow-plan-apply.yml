@@ -47,6 +47,7 @@ jobs:
 
   terraform-plan:
     name: 'Terraform Plan'
+    needs: terraform-test
     runs-on: ubuntu-latest
 
     steps:
