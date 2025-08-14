@@ -5,6 +5,8 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+# Queue jobs to run sequentially
+# This prevents multiple runs from overlapping and ensures that the latest changes are applied
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
