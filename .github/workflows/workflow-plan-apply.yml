@@ -1,4 +1,4 @@
-name: 'Terraform Test'
+name: 'Terraform Plan and Apply'
 
 on:
   push:
@@ -47,7 +47,7 @@ jobs:
 
     # Save the Terraform plan output as an artifact
     - name: Upload Plan Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: terraform-plan
         path: plan.out
