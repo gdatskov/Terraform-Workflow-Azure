@@ -43,7 +43,7 @@ jobs:
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
-      run: terraform plan -output=plan.out
+      run: terraform plan -out=plan.out
 
     # Save the Terraform plan output as an artifact
     - name: Upload Plan Artifact
