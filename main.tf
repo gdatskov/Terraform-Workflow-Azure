@@ -68,7 +68,7 @@ resource "azurerm_mssql_database" "azure-db" {
 
   storage_account_type = "Local"
   zone_redundant       = false
-  geo_backup_enabled   = false
+  # geo_backup_enabled   = false
 }
 
 resource "azurerm_mssql_firewall_rule" "azure-db-fw-rule" {
