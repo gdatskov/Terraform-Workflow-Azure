@@ -1,6 +1,6 @@
 # About
 
-This project aims to demonstrate CI/CD with Github Actions and IaaC with Terraform:  
+This project aims to demonstrate CI/CD with Github Actions and IaaC provisioning and deployment with Terraform:  
 Terraform configuration for provisioning Azure resources and deploying the "TaskBoard" Web app (provided as a ready-to-deploy app from SoftUni) to Azure Web Apps, uploading it to GitHub and using GitHub Actions workflows to test and run the configuration.
 
 # Resources and functionality:
