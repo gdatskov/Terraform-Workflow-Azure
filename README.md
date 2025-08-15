@@ -1,10 +1,10 @@
 # About
 
-This project aims to demonstrate CI/CD with Github Actions and IaaC provisioning and deployment with Terraform, using MS Azure as a cloud provider:  
+This project aims to demonstrate CI/CD with Github Actions and IaaC automated provisioning and deployment with Terraform, using MS Azure as a cloud provider -  
 Terraform configuration for provisioning Azure resources and deploying the "TaskBoard" Web app (provided as a ready-to-deploy app from SoftUni) to Azure Web Apps, uploading it to GitHub and using GitHub Actions workflows to test and run the configuration.
 
 # Resources and functionality:
-1. "TaskBoard" Web app:
+1. "TaskBoard" Web app (.NET):
    - ready to be uploaded as a GitHub repository - in this case, added as a repo here: https://github.com/gdatskov/TaskBoard-Azure-Web-App-with-Database.git
    - ready to be deployed
 2. Terraform configuration files:
