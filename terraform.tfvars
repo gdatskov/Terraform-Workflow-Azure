@@ -1,3 +1,4 @@
+azure_subscription_id            = "a95dae05-dd40-452e-bd12-c143df37b546"
 resource_group_location          = "switzerlandnorth"
 resource_group_name              = "taskboard-rg"
 app_service_plan_name            = "TaskBoard-sp"
