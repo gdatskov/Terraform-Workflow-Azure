@@ -1,7 +1,6 @@
 variable "azure_subscription_id" {
   description = "The Azure Subscription ID where resources will be created."
   type        = string
-  
 }
 
 variable "resource_group_name" {
